@@ -37,5 +37,5 @@ jobs:
       - name: Deploy
         run: pnpm run deploy
         env:
-          CLOUDFLARE_ACCOUNT_ID: 'digituncle@gmail.com'
-          CLOUDFLARE_API_TOKEN: 'OlJ_kvjdrOjZPz9N4cbRSn6BfIcqOxvf9Bm6-mZY'
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
