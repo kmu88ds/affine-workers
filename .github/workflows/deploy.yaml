@@ -37,5 +37,5 @@ jobs:
       - name: Deploy
         run: pnpm run deploy
         env:
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 'f9543aaf1b2f2ce3f308b52f40975447'
+          CLOUDFLARE_API_TOKEN: '0UgsGIhYim16CF3wXxpQlr3YUTHno60OB3_ZYOhg'
